@@ -8,7 +8,6 @@ y = df.iloc[0:100, 4].values
 y = np.where(y == 'iris-setosa', -1, 1)
 X = df.iloc[0:100, [0, 2]].values
 
-
 # representar datos
 
 # plt.scatter(X[:50, 0], X[:50, 1], 
